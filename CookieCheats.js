@@ -7,7 +7,7 @@ if (CheatyThing == "A") {
   }
 } else if (CheatyThing == "B") {
   var n = window.prompt("How many cookies?");
-  Game.cookies = Game.cookies + n;
+  Game.cookies = Game.cookies + int(n);
 } else if (CheatyThing == "C") {
   Game.cookies = 26723462839475619873;
   Game.heavenlyChips = 35235234523453;
